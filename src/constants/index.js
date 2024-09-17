@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    name: 'Work',
+    name: 'Education',
     href: '#work',
   },
   {
@@ -21,48 +21,13 @@ export const navLinks = [
   },
 ];
 
-export const clientReviews = [
-  {
-    id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
-    review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-  },
-  {
-    id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
-    review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-  },
-  {
-    id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
-    review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-  },
-  {
-    id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
-    review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-  },
-];
-
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Finance App - An app for checking your expenses',
+    desc: 'Welcome to Finance App, your personal finance app designed to help you easily monitor and manage your spending. Track your expenses over any period, gain insights into your spending habits, and stay on top of your financial goals with just a few taps. Take control of your finances today!',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Vercel and Postgresql, Finance is designed for optimal performance and scalability.',
+    href: 'https://finance-app-xi-wine.vercel.app',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -74,8 +39,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
+        name: 'Next.js',
+        path: '/assets/next.png',
       },
       {
         id: 2,
@@ -89,17 +54,17 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Vercel',
+        path: '/assets/vercel.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Admin Dashboard',
+    desc: 'AdminDashboard is a powerful collaborative app that elevates the capabilities of CRM. Made with the help of Refine, it can be used as a template.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      'Welcome to the Admin Dashboard, built using Refine, the powerful React-based framework for rapid data-driven application development. This dashboard offers an intuitive interface for managing users, monitoring data, and overseeing key operations—all with customizable features and seamless backend integration. Stay organized and in control with real-time insights at your fingertips!',
+    href: 'https://github.com/RitamPal26/AdminDashboard',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -126,17 +91,17 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Refine',
+        path: '/assets/refine.png',
       },
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Ecomm Website - Payload CMS',
+    desc: '',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      'Welcome to our cutting-edge eCommerce website, meticulously crafted using Payload CMS to deliver a seamless and engaging shopping experience. Payload CMS empowers us with a robust and flexible content management system, allowing us to effortlessly manage our products, promotions, and content. With its powerful features and intuitive interface, we ensure that our website is always up-to-date, responsive, and optimized for performance. Dive into our diverse range of products, enjoy smooth navigation, and experience the best in online shopping with our Payload CMS-powered platform.',
+    href: 'https://github.com/RitamPal26/ecomm',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo3.png',
     logoStyle: {
@@ -165,17 +130,17 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Payload',
+        path: '/assets/payload.png',
       },
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'ChitChat - Online Chatting Platform',
+    desc: 'Welcome to ChitChat, a seamless messaging app designed to keep you connected with friends, family, and colleagues in real-time. Enjoy fast and secure conversations, share multimedia, and create group chats effortlessly. With an intuitive interface and customizable features, ChitChat makes communication easy and fun!',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+      '',
+    href: 'https://chitchat-s18n.onrender.com/login',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
@@ -197,22 +162,22 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'MongoDB',
+        path: '/assets/mongodb.png',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'FitnessClub - Fitness App',
+    desc: 'Welcome to FitnessClub, your ultimate fitness companion designed to help you stay active and achieve your health goals.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+      "Explore personalized workout plans, track your progress, and discover exercises tailored to different muscle groups. Whether you're a beginner or a fitness enthusiast, FitnessClub empowers you to stay motivated and fit, anytime, anywhere!",
+    href: 'https://fitclub26.netlify.app/',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/project-logo5.png',
     logoStyle: {
@@ -234,13 +199,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'JavaScript',
+        path: '/assets/js.png',
       },
     ],
   },
@@ -260,29 +220,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'BDM International',
+    pos: '10th (2020)',
+    duration: '2018 - 2020',
+    title: "",
+    //icon: '/assets/bdmi.svg',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
+    name: 'DPS, RubyPark',
+    pos: '12th (2022)',
     duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    title: "",
+    //icon: '/assets/dps.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'SRM IST, KTR',
+    pos: 'B. Tech',
+    duration: '2022 - 2026',
+    title: "",
+    //icon: '',
     animation: 'salute',
   },
 ];
