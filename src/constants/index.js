@@ -28,8 +28,8 @@ export const myProjects = [
     subdesc:
       'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Vercel and Postgresql, Finance is designed for optimal performance and scalability.',
     href: 'https://finance-app-xi-wine.vercel.app',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+    texture: '/textures/project/project_finance.mp4',
+    logo: '/assets/finance1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -64,9 +64,9 @@ export const myProjects = [
     desc: 'AdminDashboard is a powerful collaborative app that elevates the capabilities of CRM. Made with the help of Refine, it can be used as a template.',
     subdesc:
       'Welcome to the Admin Dashboard, built using Refine, the powerful React-based framework for rapid data-driven application development. This dashboard offers an intuitive interface for managing users, monitoring data, and overseeing key operations—all with customizable features and seamless backend integration. Stay organized and in control with real-time insights at your fingertips!',
-    href: 'https://github.com/RitamPal26/AdminDashboard',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+    href: 'https://admin-dashboard-jsd9kaoiu-ritam-pals-projects.vercel.app/',
+    texture: '/textures/project/project_admin.mp4',
+    logo: '/assets/admin1.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -102,8 +102,8 @@ export const myProjects = [
     subdesc:
       'Welcome to our cutting-edge eCommerce website, meticulously crafted using Payload CMS to deliver a seamless and engaging shopping experience. Payload CMS empowers us with a robust and flexible content management system, allowing us to effortlessly manage our products, promotions, and content. With its powerful features and intuitive interface, we ensure that our website is always up-to-date, responsive, and optimized for performance. Dive into our diverse range of products, enjoy smooth navigation, and experience the best in online shopping with our Payload CMS-powered platform.',
     href: 'https://github.com/RitamPal26/ecomm',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+    texture: '/textures/project/project_ecomm.mp4',
+    logo: '/assets/ecomm1.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -138,11 +138,10 @@ export const myProjects = [
   {
     title: 'ChitChat - Online Chatting Platform',
     desc: 'Welcome to ChitChat, a seamless messaging app designed to keep you connected with friends, family, and colleagues in real-time. Enjoy fast and secure conversations, share multimedia, and create group chats effortlessly. With an intuitive interface and customizable features, ChitChat makes communication easy and fun!',
-    subdesc:
-      '',
+    subdesc: '',
     href: 'https://chitchat-s18n.onrender.com/login',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
+    texture: '/textures/project/project_chitchat.mp4',
+    logo: '/assets/ChatApp.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -178,8 +177,8 @@ export const myProjects = [
     subdesc:
       "Explore personalized workout plans, track your progress, and discover exercises tailored to different muscle groups. Whether you're a beginner or a fitness enthusiast, FitnessClub empowers you to stay motivated and fit, anytime, anywhere!",
     href: 'https://fitclub26.netlify.app/',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+    texture: '/textures/project/project_fitness.mp4',
+    logo: '/assets/fitness1.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -223,8 +222,8 @@ export const workExperiences = [
     name: 'BDM International',
     pos: '10th (2020)',
     duration: '2018 - 2020',
-    title: "",
-    //icon: '/assets/bdmi.svg',
+    title: '',
+    icon: '/assets/bdmi.jpeg',
     animation: 'victory',
   },
   {
@@ -232,8 +231,8 @@ export const workExperiences = [
     name: 'DPS, RubyPark',
     pos: '12th (2022)',
     duration: '2020 - 2022',
-    title: "",
-    //icon: '/assets/dps.png',
+    title: '',
+    icon: '/assets/dps.jpeg',
     animation: 'clapping',
   },
   {
@@ -241,8 +240,8 @@ export const workExperiences = [
     name: 'SRM IST, KTR',
     pos: 'B. Tech',
     duration: '2022 - 2026',
-    title: "",
-    //icon: '',
+    title: '',
+    icon: '/assets/srm.jpeg',
     animation: 'salute',
   },
 ];
